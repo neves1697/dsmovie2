@@ -3,5 +3,22 @@ h1{
     color: red;
 }
 *{
+    box-sizing: border-box;
     font-family: 'Open Sans', 'sans-serif';
+}
+html, body{
+    background-color: #ddd;
+}
+header{
+    background-color: #4D41C0;
+    color: #ffff;
+}
+a,a:hover{
+    color: unset;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
