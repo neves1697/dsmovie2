@@ -1,18 +1,35 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;700 & display=swap');
+:root{
+    --bg-grey:#ddd;
+    --color-primary:#4D41C0;
+    --white: #fff;
+
+}
 h1{
     color: red;
 }
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+
+
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', 'sans-serif';
 }
+
+
 html, body{
-    background-color: #ddd;
+    background-color: var(--bg-grey);
 }
 header{
-    background-color: #4D41C0;
-    color: #ffff;
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
+
 a,a:hover{
     color: unset;
     text-decoration: none;
@@ -21,4 +38,23 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+nav h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+nav a{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.dsmovie-contact-container{
+    align-items: center;
+    display: flex;
+
+}
+
+.dsmovie-contact-container img{
+    margin-right: 10px;
 }
