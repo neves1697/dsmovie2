@@ -5,6 +5,7 @@
     --white: #fff;
     --text-grey: #4A4A4A;
     --text-light-grey: #aaa;
+    --star-yellow:#FFBB3A;
 
 }
 /* tags*/
@@ -80,12 +81,13 @@ nav a{
 }
 
 .dsmovie-card-description{
-    padding: 10px 0 20 0;
+    padding: 10px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
+    height: 220px;
 }
 
 .dsmovie-card-description h3{
@@ -108,6 +110,7 @@ nav a{
     border: 0;
 }
 
+
 .dsmovie-form-container{
     padding: 40px 0;
     max-width: 480px;
@@ -120,11 +123,37 @@ nav a{
     align-items: center;
     border-radius:0 0 8px 8px ;
 }
+.dsmovie-card-description-botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.dsmovie-card-description-botton img{
+    width: 22px;
+}
+
+.dsmovie-card-description-botton p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-grey);
+    margin-bottom: 10px;
+
+}
+
 
 .dsmovie-form-description h3{
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.dsmovie-card-description-botton h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
 }
 
 .dsmovie-form{
